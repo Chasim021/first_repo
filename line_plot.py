@@ -6,4 +6,4 @@ import matplotlib.pyplot as plt
 phol=sns.load_dataset("iris") 
 sns.lineplot(x='species' , y='petal_width' , data=phol)
 plt.show()
-print(phol)
+
